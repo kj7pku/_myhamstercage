@@ -1,26 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="783c6fe7-9380-491a-a7d5-433967183262" name="Default Changelist" comment="" />
+    <list default="true" id="783c6fe7-9380-491a-a7d5-433967183262" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myhamstercage.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skaffold.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jyrd8WKw03ir2M8iBA9FnOi5j5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.6" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="google.kubernetes.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Cloud Code: Kubernetes.Develop on Kubernetes">
+    <configuration name="Develop on Kubernetes" type="google-container-tools-skaffold-run-config" factoryName="google-container-tools-skaffold-run-config-dev" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="cleanupDeployments" value="true" />
+      <option name="envVariables" />
+      <option name="imageRepositoryOverride" />
+      <option name="kubernetesContext" />
+      <option name="mappings">
+        <list />
+      </option>
+      <option name="redeployOnChanges" value="true" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="skaffoldConfigurationFilePath" value="$PROJECT_DIR$/skaffold.yaml" />
+      <option name="skaffoldNamespace" />
+      <option name="skaffoldProfile" />
+      <option name="verbosity" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run on Kubernetes" type="google-container-tools-skaffold-run-config" factoryName="google-container-tools-skaffold-run-config-dev" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="cleanupDeployments" value="true" />
+      <option name="envVariables" />
+      <option name="imageRepositoryOverride" />
+      <option name="kubernetesContext" />
+      <option name="mappings">
+        <list />
+      </option>
+      <option name="redeployOnChanges" value="false" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="skaffoldConfigurationFilePath" value="$PROJECT_DIR$/skaffold.yaml" />
+      <option name="skaffoldNamespace" />
+      <option name="skaffoldProfile" />
+      <option name="verbosity" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,13 +109,40 @@
       <updated>1604787258975</updated>
       <workItem from="1604787260641" duration="900000" />
       <workItem from="1604788579236" duration="117000" />
+      <workItem from="1604793055788" duration="7154000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="-2992" y="-1195" key="#Deployment" timestamp="1604976649180">
+      <screen x="-3680" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="-2992" y="-1195" key="#Deployment/0.0.1440.900/-3680.-1440.2560.1440/-1120.-1440.2560.1440@-3680.-1440.2560.1440" timestamp="1604976649180" />
+    <state x="-2635" y="-883" key="#com.intellij.tools.ToolEditorDialog" timestamp="1604976713407">
+      <screen x="-3680" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="-2635" y="-883" key="#com.intellij.tools.ToolEditorDialog/0.0.1440.900/-3680.-1440.2560.1440/-1120.-1440.2560.1440@-3680.-1440.2560.1440" timestamp="1604976713407" />
+    <state x="-2717" y="-1036" key="EnvironmentVariablesDialog" timestamp="1604977827012">
+      <screen x="-3680" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="-2717" y="-1036" key="EnvironmentVariablesDialog/0.0.1440.900/-3680.-1440.2560.1440/-1120.-1440.2560.1440@-3680.-1440.2560.1440" timestamp="1604977827012" />
     <state width="2539" height="225" key="GridCell.Tab.0.bottom" timestamp="1604788551378">
       <screen x="-3680" y="-1440" width="2560" height="1440" />
     </state>
@@ -55,9 +159,9 @@
       <screen x="-3680" y="-1440" width="2560" height="1440" />
     </state>
     <state width="2539" height="225" key="GridCell.Tab.0.right/0.0.1440.900/-3680.-1440.2560.1440/-1120.-1440.2560.1440@-3680.-1440.2560.1440" timestamp="1604788551376" />
-    <state x="-2899" y="-1081" key="SettingsEditor" timestamp="1604788706262">
+    <state x="-2899" y="-1081" key="SettingsEditor" timestamp="1604977740448">
       <screen x="-3680" y="-1440" width="2560" height="1440" />
     </state>
-    <state x="-2899" y="-1081" key="SettingsEditor/0.0.1440.900/-3680.-1440.2560.1440/-1120.-1440.2560.1440@-3680.-1440.2560.1440" timestamp="1604788706262" />
+    <state x="-2899" y="-1081" key="SettingsEditor/0.0.1440.900/-3680.-1440.2560.1440/-1120.-1440.2560.1440@-3680.-1440.2560.1440" timestamp="1604977740448" />
   </component>
 </project>

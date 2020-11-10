@@ -1,0 +1,43 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: myhamstercage
+  annotations:
+    external-dns.alpha.kubernetes.io/hostname: "demo.myhamstercage.com"
+    kubernetes.digitalocean.com/load-balancer-id: "f249ac60-2939-4370-8b5a-60ea68d19910"
+    service.beta.kubernetes.io/do-loadbalancer-algorithmi: "round_robin"
+    service.beta.kubernetes.io/do-loadbalancer-certificate-id: "57c2d7d9-8b00-4d22-9773-9718b98a4b0a"
+    service.beta.kubernetes.io/do-loadbalancer-protocol: "http"
+    service.beta.kubernetes.io/do-loadbalancer-redirect-http-to-https: "true"
+    service.beta.kubernetes.io/do-loadbalancer-tls-ports: "443"
+spec:
+  type: LoadBalancer
+  selector:
+    app: myhamstercage
+  ports:
+    - name: http
+      port: 80
+      targetPort: 3000
+    - name: https
+      port: 443
+      targetPort: 3000
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myhamstercage
+spec:
+  selector:
+    matchLabels:
+      app: myhamstercage
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: myhamstercage
+    spec:
+      containers:
+        - name: myhamstercage
+          image: kj7pku/myhamstercage
+          ports:
+            - containerPort: 3000

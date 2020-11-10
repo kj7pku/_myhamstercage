@@ -1,0 +1,13 @@
+apiVersion: skaffold/v2beta8
+kind: Config
+metadata:
+  name: myhamstercage
+build:
+  artifacts:
+  - image: kj7pku/myhamstercage
+    context: .
+    docker: {}
+deploy:
+  kubectl:
+    manifests:
+    - myhamstercage.yaml
