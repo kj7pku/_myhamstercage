@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="783c6fe7-9380-491a-a7d5-433967183262" name="Default Changelist" comment="" />
+    <list default="true" id="783c6fe7-9380-491a-a7d5-433967183262" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hamster.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="kubernetes-admin@kubernetes" />
+    <option name="namespace" value="default" />
   </component>
   <component name="ProjectId" id="1jyrd8WKw03ir2M8iBA9FnOi5j5" />
   <component name="ProjectViewState">
@@ -15,12 +46,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.6" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chq-stevenp\WebstormProjects\myhamstercage1\public" />
+      <recent name="C:\Users\chq-stevenp\WebstormProjects\myhamstercage1\public\stylesheets" />
+      <recent name="C:\Users\chq-stevenp\WebstormProjects\myhamstercage1" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,32 +70,51 @@
       <updated>1604787258975</updated>
       <workItem from="1604787260641" duration="900000" />
       <workItem from="1604788579236" duration="117000" />
+      <workItem from="1606237409946" duration="706000" />
+      <workItem from="1606238140783" duration="2975000" />
+      <workItem from="1606243341300" duration="5178000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="2539" height="225" key="GridCell.Tab.0.bottom" timestamp="1604788551378">
-      <screen x="-3680" y="-1440" width="2560" height="1440" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1606245143668">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/-1925.1080.1280.693/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606245143668" />
     <state width="2539" height="225" key="GridCell.Tab.0.bottom/0.0.1440.900/-3680.-1440.2560.1440/-1120.-1440.2560.1440@-3680.-1440.2560.1440" timestamp="1604788551378" />
-    <state width="2539" height="225" key="GridCell.Tab.0.center" timestamp="1604788551375">
-      <screen x="-3680" y="-1440" width="2560" height="1440" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1606245143668">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/-1925.1080.1280.693/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606245143668" />
     <state width="2539" height="225" key="GridCell.Tab.0.center/0.0.1440.900/-3680.-1440.2560.1440/-1120.-1440.2560.1440@-3680.-1440.2560.1440" timestamp="1604788551375" />
-    <state width="2539" height="225" key="GridCell.Tab.0.left" timestamp="1604788551373">
-      <screen x="-3680" y="-1440" width="2560" height="1440" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1606245143668">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/-1925.1080.1280.693/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606245143668" />
     <state width="2539" height="225" key="GridCell.Tab.0.left/0.0.1440.900/-3680.-1440.2560.1440/-1120.-1440.2560.1440@-3680.-1440.2560.1440" timestamp="1604788551373" />
-    <state width="2539" height="225" key="GridCell.Tab.0.right" timestamp="1604788551376">
-      <screen x="-3680" y="-1440" width="2560" height="1440" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1606245143668">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/-1925.1080.1280.693/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606245143668" />
     <state width="2539" height="225" key="GridCell.Tab.0.right/0.0.1440.900/-3680.-1440.2560.1440/-1120.-1440.2560.1440@-3680.-1440.2560.1440" timestamp="1604788551376" />
-    <state x="-2899" y="-1081" key="SettingsEditor" timestamp="1604788706262">
-      <screen x="-3680" y="-1440" width="2560" height="1440" />
+    <state x="586" y="259" key="SettingsEditor" timestamp="1606238116233">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="586" y="259" key="SettingsEditor/-1925.1080.1280.693/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606238116233" />
     <state x="-2899" y="-1081" key="SettingsEditor/0.0.1440.900/-3680.-1440.2560.1440/-1120.-1440.2560.1440@-3680.-1440.2560.1440" timestamp="1604788706262" />
   </component>
 </project>
