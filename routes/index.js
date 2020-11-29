@@ -1,14 +1,21 @@
 var express = require('express');
 var MongoClient = require('mongodb').MongoClient;
+var geoip = require('geoip-lite');
 var url = "mongodb://root:QbpbVYoD6g@mongodb-1604800654.default.svc.cluster.local/";
 
 var router = express.Router();
 
 /* GET home page. */
+
 router.get('/', function (req, res, next) {
+    var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+    var geo = geoip.lookup(ip);
     res.render('index', {title: 'MyHamsterCage.com'});
 });
 router.post('/', function (req, res) {
+    var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+    var geo = geoip.lookup(ip);
+
     if (!req.body || Object.keys(req.body).length === 0) {
         return res.status(400).send('No files were uploaded.');
     }
@@ -19,9 +26,18 @@ router.post('/', function (req, res) {
     MongoClient.connect(url, function (err, db) {
         if (err) throw err;
         var dbo = db.db("Licenses");
-        var myobj = {email: email, LicensePDF: licenseFile, State: 0, LicenseTXT: ''};
+        var myobj = {
+            email: email,
+            licensePDF: licenseFile,
+            region: geo.region,
+            License: '',
+            country: geo.country,
+            ll: geo.ll,
+            city: geo.city,
+            step: 0
+        };
         dbo.collection("queue").insertOne(myobj, function (err, res) {
-            if (err) throw err;
+//            if (err) throw err;
             console.log("1 document inserted");
             db.close();
         });
