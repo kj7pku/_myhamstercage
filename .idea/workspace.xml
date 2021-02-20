@@ -6,21 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="783c6fe7-9380-491a-a7d5-433967183262" name="Default Changelist" comment="config for webstorm">
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/sb-admin-2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/create.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/sb-admin-2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/create.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Develop_on_Kubernetes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Develop_on_Kubernetes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_on_Kubernetes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Run_on_Kubernetes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/skaffold.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/error.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/error.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210220_0008" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210220_0010" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
@@ -182,7 +169,8 @@
       <workItem from="1613014054237" duration="180000" />
       <workItem from="1613015583719" duration="922000" />
       <workItem from="1613016672809" duration="2496000" />
-      <workItem from="1613593494587" duration="954000" />
+      <workItem from="1613593494587" duration="1017000" />
+      <workItem from="1613842224161" duration="811000" />
     </task>
     <task id="LOCAL-00002" summary="working submition">
       <created>1606597704715</created>
@@ -198,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606630438175</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="config for webstorm">
+      <created>1613842161714</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613842161714</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
