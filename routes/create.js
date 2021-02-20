@@ -1,7 +1,7 @@
 var express = require('express');
 var MongoClient = require('mongodb').MongoClient;
 var geoip = require('geoip-lite');
-var url = "mongodb://root:QbpbVYoD6g@mongodb-1604800654.default.svc.cluster.local/";
+var url = "mongodb://root:Ny9eMRHYHS@mongodb-1612829049.default.svc.pokrandt.me";
 
 var router = express.Router();
 

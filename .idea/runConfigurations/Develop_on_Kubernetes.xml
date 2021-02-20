@@ -4,17 +4,18 @@
     <option name="cleanupDeployments" value="true" />
     <option name="envVariables" />
     <option name="imageRepositoryOverride" />
-    <option name="kubernetesContext" value="kubernetes-admin@kubernetes" />
+    <option name="kubernetesContext" value="local" />
     <option name="mappings">
       <list />
     </option>
     <option name="redeployOnChanges" value="true" />
     <option name="selectedOptions">
-      <set />
+      <list />
     </option>
     <option name="skaffoldConfigurationFilePath" value="$PROJECT_DIR$/skaffold.yaml" />
     <option name="skaffoldNamespace" />
     <option name="skaffoldProfile" />
+    <option name="statusCheck" value="true" />
     <option name="verbosity" value="NONE" />
     <method v="2" />
   </configuration>
